@@ -1,0 +1,98 @@
+/*estilo del cuerpo de la pagina */
+body {
+    background: url("imag/arcades.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+ /* Estilo de la barra de tabs */
+.tab {
+    overflow: hidden;
+    background-color: none;
+}
+
+/* Estilo de los botones tab */
+
+.tab button {
+/* Hereda el fondo del padre */
+    background-color: inherit;
+/* Posiciona a la izquierda */
+    float: left;
+/* ningun borde */
+    border: none;
+/* ningun outline */
+    outline: none;
+/* El cursor se vuelve un puntero */
+    cursor: pointer;
+/* Espaciado de los tab */
+    padding: 14px 16px;
+/* tiempo de transicion */
+    transition: 0.5s;
+}
+
+/* Cambia el color del background del tab cuando el cursor esta sober ese tab */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+
+
+/* Estilo del contenido del tab */
+.tabcontenido {
+    display: none;
+    padding: 6px 12px;
+} 
+/* estilo de las tablas */
+table {
+
+width: 100%;
+background-image: url("imag/BGtable.jpg");
+background-position: 100%;
+}
+td,tr {
+width: 50%;
+color: #ffffff;
+font-style:italic;
+font-weight:bold;
+font-size:20px;
+font-family:'Helvetica';
+border: 2px solid blue;
+}
+/*estilo en general */
+h3 {
+color : blue; 
+}
+h1,h2,h3 {
+color: cyan;
+text-align:center;
+}
+/* estilo de imagenes en la barra de tabs*/
+#img1 {
+width :160px;
+height:80px;
+}
+#img2 {
+width :160px;
+height:80px;
+}
+#img3 {
+width :160px;
+height:80px;
+}
+#img4 {
+width :160px;
+height:80px;
+}
+input[type=text],input[type=password] {
+ width: 60%;
+}
+/*input[type=submit] {
+    width: 60%;
+    background-color: blue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}*/
+

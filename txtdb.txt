@@ -1,0 +1,14 @@
+create db_club;
+ create table usuarios (id varchar (50) primary key not null,contrasena text,creditos integer,puntos integer);
+  create table inventario (id varchar(50) primary key not null,costo int,imagen MEDIUMBLOB );
+ create table premios (id varchar (50) primary key not null,costo int,imagen MEDIUMBLOB ;
+ create table compra (idpremio varchar(50),idusuario varchar(50));
+ create table empleados (id varchar (50) primary key not null,contrasena text);
+
+
+insert into inventario (id,costo,imagen) values ("marvel vs capcom2",100,LOAD_FILE('C:/xampp/htdocs/algo2/imag/mvc.png'));
+insert into premios (id,costo,imagen) values ("spotify",100,LOAD_FILE('C:/xampp/htdocs/algo2/imag/sp.png'));
+insert into empleados values ("pacomason","la gravedad no existe");
+insert into usuarios values ("reptiliano","la matrix es real",8,8);
+
+  
